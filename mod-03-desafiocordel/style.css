@@ -40,7 +40,7 @@ header a, footer a{
     font-weight: bolder;
 }
 
-header a:hover, footer a{
+header a:hover{
     text-decoration: underline;      
 }
 
@@ -76,17 +76,20 @@ section.imagem > p{
 }
 
 section#img01{
-    background-image: url('/imagens/background001.jpg');
+    background-image: url('./imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
 }
 
 section#img02{
-   background-image: url('/imagens/background002.jpg');
+   background-image: url('./imagens/background002.jpg');
    background-position: right center;
 
 footer {
     text-align: center;
+}
+
+footer {  
     background-color: black;
     color: white;
     padding: 10px;
