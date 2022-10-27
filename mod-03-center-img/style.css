@@ -1,0 +1,24 @@
+
+
+#container {    
+    height: 70vh;
+    background-color: rgb(248, 191, 91);
+    background-image: url('/imagens/target001.png');
+    background-size: 100% 100%;
+    padding: 10px;
+}
+
+#content {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background-image: url('/imagens/target001.png');
+    /* Isso quer dizer 100% de largura e 100% da altura. */
+    background-size: 100% 100%; 
+    background-color: rgb(47, 226, 246);
+    margin: auto;
+    left: 50%;
+    bottom: 50%;
+
+    transform: translate(-50%);
+}
